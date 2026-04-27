@@ -1,0 +1,16 @@
+[
+  {
+    "id": "1",
+    "title": "Event name",
+    "start": "2026-04-04",
+    "end": "2026-04-05",
+    "backgroundColor": "pink"
+  },
+  {
+    "id": "2",
+    "title": "Event name",
+    "start": "2026-04-25",
+    "end": "2026-04-26",
+    "backgroundColor": "#3b86ff"
+  }
+]
