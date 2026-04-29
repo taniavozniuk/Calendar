@@ -44,12 +44,42 @@ body {
   color: rgb(165, 168, 181);
 }
 
-.my-calendar .fc-daygrid-event {
-  height: 30px;
+[data-sidebar="sidebar"] {
+  padding: 0 !important;
+}
+
+[data-sidebar="group"] {
+  padding: 0 !important;
+}
+
+[data-sidebar="group-label"] {
+  padding: 16px 24px !important;
+  height: auto !important;
+}
+
+[data-sidebar="content"] {
+  padding: 0 !important;
+}
+
+[data-sidebar="menu"] {
+  padding: 0 !important;
+}
+
+[data-sidebar="menu-item"] {
+  height: 50px;
   display: flex;
   align-items: center;
-  border: none;
-  padding: 0 0 0 5px;
-  font-size: 14px;
-  font-weight: 500;
+}
+
+[data-sidebar="menu-button"] {
+  font-weight: 400;
+  font-size: 20px;
+  padding: 10px 24px !important;
+  border-radius: 0 !important;
+}
+
+
+[data-sidebar="menu-button"] svg {
+  width: 20px !important;
+  height: 20px !important;
 }
