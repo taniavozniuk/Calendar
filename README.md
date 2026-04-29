@@ -1,20 +1,21 @@
 # 📅 Calendar App
 
 A React application for event management with full CRUD, drag & drop, and data persistence.
+[Demo](https://taniavozniuk.github.io/Calendar/)
 
 ---
 
 ## ⚙️ Features
 
-| Feature | Description |
-| --- | --- |
-| ➕ Add Event | Click on a day to open a popup. Fields: title (max 30 chars), date, time, notes, color |
-| ✏️ Edit Event | Click on an event to open a popup with pre-filled data |
-| 🗑️ Delete Event | «Discard» button inside the popup |
-| 🎨 Color Picker | Palette of 6 colors when creating or editing an event |
-| 🖱️ Drag & Drop | Drag events between days |
-| 📆 View Switching | Month / Week / Day / Agenda |
-| 💾 Data Persistence | `localStorage` — data is saved after page reload |
+| Feature             | Description                                                                            |
+| ------------------- | -------------------------------------------------------------------------------------- |
+| ➕ Add Event        | Click on a day to open a popup. Fields: title (max 30 chars), date, time, notes, color |
+| ✏️ Edit Event       | Click on an event to open a popup with pre-filled data                                 |
+| 🗑️ Delete Event     | «Discard» button inside the popup                                                      |
+| 🎨 Color Picker     | Palette of 6 colors when creating or editing an event                                  |
+| 🖱️ Drag & Drop      | Drag events between days                                                               |
+| 📆 View Switching   | Month / Week / Day / Agenda                                                            |
+| 💾 Data Persistence | `localStorage` — data is saved after page reload                                       |
 
 ---
 
@@ -37,17 +38,17 @@ On first launch, initial events are loaded from `events.json`.
 
 ## 🧩 Tech Stack
 
-| Technology | Purpose |
-| --- | --- |
-| **React 19** | UI library |
-| **TypeScript** | Type safety |
-| **Vite** | Bundler and dev server |
-| **FullCalendar** | Calendar component (`@fullcalendar/react`) |
-| **Tailwind CSS** | Styling |
-| **shadcn/ui** | UI components (Popover, Sidebar) |
-| **React Hook Form** | Form management in EventModal |
-| **Zod** | Form data validation |
-| **Lucide React** | Icons |
+| Technology          | Purpose                                    |
+| ------------------- | ------------------------------------------ |
+| **React 19**        | UI library                                 |
+| **TypeScript**      | Type safety                                |
+| **Vite**            | Bundler and dev server                     |
+| **FullCalendar**    | Calendar component (`@fullcalendar/react`) |
+| **Tailwind CSS**    | Styling                                    |
+| **shadcn/ui**       | UI components (Popover, Sidebar)           |
+| **React Hook Form** | Form management in EventModal              |
+| **Zod**             | Form data validation                       |
+| **Lucide React**    | Icons                                      |
 
 ---
 
